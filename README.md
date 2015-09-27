@@ -17,3 +17,21 @@
                 <li><a href="http://go.microsoft.com/fwlink/?LinkID=511861">View the Apache Cordova Documentation</a> to learn more about Cordova APIs</li>
                 <li><a href="http://go.microsoft.com/fwlink/?LinkID=398034">Go to the Visual Studio Gallery</a> to get more templates and samples</li>
              </ul>
+               <div class="section">
+            <h2>How to run the app locally:</h2>
+            <ul>
+                <li>Open the repository in Visual studio</li>
+                <li>run it either with Ripple, or any available simulator device</li>
+                <li>other option is to download the app as zip and run it from cmd(ionic installaton required) more info: <a href="http://ionicframework.com/docs/guide/testing.html">Ionic build</a></li>
+            </ul>
+        </div>
+            <div class="section">
+            <h2>Info:</h2>
+            <ul>
+               <li>app.js contains the $stateProvider service, which is used to navigate thru tabs </li>
+ <li>controllers.js contains the each tab controller, which is used to call 500px api to retreive the data </li>
+            </ul>
+        </div>
+
+
+        
